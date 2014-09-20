@@ -1,19 +1,24 @@
 package com.marcussjolin.hackthenorth;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.VideoView;
+
 import com.marcussjolin.hackthenorth.R;
 
 public class ViewVideoActivity extends Activity {
+    VideoView mVideoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_video);
+        mVideoView = (VideoView) findViewById(R.id.view_video);
+        mVideoView.setVideoURI(getIntent().getData());
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
