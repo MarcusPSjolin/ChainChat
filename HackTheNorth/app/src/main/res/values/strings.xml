@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">HackTheNorth</string>
+    <string name="app_name">ChainChat</string>
     <string name="take_video">Take Video</string>
     <string name="send">Send</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_view_video">ViewVideoActivity</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">InitialActivity</string>
+    <string name="login_string">Login</string>
+    <string name="signup_string">Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="capture">Capture Video</string>
+    <string name="button_stop">Stop</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="logout">Logout</string>
 
 </resources>
